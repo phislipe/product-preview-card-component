@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+main {
+  background: hsl(30, 38%, 92%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  background: hsl(0, 0%, 100%);
+  width: 345px;
+  height: 612px;
+  border-radius: 10px;
+  box-shadow: 0 20px 25px hsla(0, 0%, 0%, 0.08);
+}
+
+.productImg {
+  width: 345px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.content {
+  position: relative;
+  padding: 19px 25px;
+  height: 370px;
+}
+
+.type {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+.type,
+.description,
+.oldPrice {
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.product {
+  padding: 13px 0 17px;
+  line-height: 32px;
+}
+
+.product,
+.currentPrice {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 19px 0 0px;
+}
+
+.currentPrice {
+  color: hsl(158, 36%, 37%);
+}
+
+.oldPrice {
+  font-size: 13px;
+  text-decoration: line-through;
+}
+
+.addToCart {
+  background: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 2.5px;
+  width: 295px;
+  height: 49px;
+  border: none;
+  border-radius: 8px;
+  position: absolute;
+  bottom: 27px;
+}
+
+.addToCart:hover {
+  background: hsl(157, 44%, 17%);
+}
+
+.addToCart:focus {
+  background: hsl(157, 44%, 17%);
+  outline: none;
+}
+
+.addToCart span {
+  vertical-align: middle;
+}
+
+.cartIcon {
+  vertical-align: middle;
+  padding: 0px 10px;
+}
+
+@media (min-width: 700px) {
+  main {
+    align-items: center;
+    width: 100vw;
+  }
+
+  .card {
+    display: flex;
+    width: 600px;
+    height: 450px;
+  }
+
+  .productImg {
+    width: 300px;
+    border-radius: 10px 0px 0px 10px;
+  }
+
+  .content {
+    justify-items: center;
+    width: 300px;
+    height: 450px;
+    padding: 32px 32.5px 35px;
+  }
+
+  .product {
+    padding: 21px 0 24px;
+  }
+
+  .price {
+    padding: 25px 0 29px;
+  }
+
+  .addToCart {
+    width: 235px;
+    bottom: 31px;
+  }
+}
