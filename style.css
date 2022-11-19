@@ -94,10 +94,7 @@ main {
   bottom: 27px;
 }
 
-.addToCart:hover {
-  background: hsl(157, 44%, 17%);
-}
-
+.addToCart:hover,
 .addToCart:focus {
   background: hsl(157, 44%, 17%);
   outline: none;
