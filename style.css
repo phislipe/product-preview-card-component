@@ -110,11 +110,6 @@ main {
 }
 
 @media (min-width: 700px) {
-  main {
-    align-items: center;
-    width: 100vw;
-  }
-
   .card {
     display: flex;
     width: 600px;
