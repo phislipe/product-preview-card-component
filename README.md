@@ -1,55 +1,42 @@
-# Frontend Mentor - Product preview card component solution
+<h1 align="center">
+  <img src="./assets/banner.svg" alt="Frontend Mentor">
+</h1>
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+<p align="center">
+  This is a solution to the <a href="https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa">Product Preview Card Component</a> challenge on Frontend Mentor.
+</p>
 
-## Table of contents
+<h3 align="center">
+  Product Preview Card Component 🌿
+</h3>
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
+<div align="center">
+  <img src="./assets/screenshot.png" alt="Product Preview Card Component">
+</div>
 
-## Overview
+<h2>📋 The challenge</h2>
 
-### The challenge
+The challenge was to build out this product preview card component and get it looking as close to the design as possible.
 
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
 
-### Screenshot
+<br>
 
-![Frontend Mentor - Product preview card component solution by Philipe Rocha](./images/screenshot.jpg)
-
-### Links
-
-- Solution URL: [https://www.frontendmentor.io/solutions/product-preview-card-component-html-css-osyuAWbE02](https://www.frontendmentor.io/solutions/product-preview-card-component-html-css-osyuAWbE02)
-- Live Site URL: [https://phislipe.github.io/product-preview-card-component/](https://phislipe.github.io/product-preview-card-component/)
-
-## My process
-
-### Built with
+<h3>🧪 Built with</h3>
 
 - HTML
 - CSS
 
-### What I learned
+<h3>🔗 Links</h3>
 
-This was fun! Really glad I managed to do both mobile and desktop designs, learned a lot during this process. This was the first time I used the `<picture>` tag, had to do some research to figure out how to change images when transitioning from mobile to desktop. At first, I tried using `hidden= "true"` in HTML, and it wasn't working the way I wanted.
+- Solution URL: [https://www.frontendmentor.io/solutions/product-preview-card-component-html-css-osyuAWbE02](https://www.frontendmentor.io/solutions/product-preview-card-component-html-css-osyuAWbE02)
+- Live Site URL: [https://phislipe.github.io/product-preview-card-component/](https://phislipe.github.io/product-preview-card-component/)
 
-### Useful resources
+---
 
-- [dev.mozilla - <picture>: The Picture element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture) - Great article if you want to learn more about the `<picture>` tag.
-- [hcode - Tag picture do HTML 5](https://youtu.be/Z7ugwtRo-GE) - This 5-minute video from hcode teaches how to use the `<picture>`.
-
-## Author
-
-- 🌐 Website - [phislipe.dev](https://phislipe.dev)
-- 🪪 LinkedIn - [Philipe Rocha](https://www.linkedin.com/in/phislipe/)
-- 🎨 Frontend Mentor - [@phislipe](https://www.frontendmentor.io/profile/yourusername)
+<p align="center">
+  Made by <a href="https://phislipe.dev"><b>Philipe Rocha</b></a>
+</p>
